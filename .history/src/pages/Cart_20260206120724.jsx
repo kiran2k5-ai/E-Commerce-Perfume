@@ -1,0 +1,30 @@
+import React from 'react'
+import image2 from "../images/image2.jpg"
+import {use}
+
+const Cart = () => {
+  const product = {
+    id: 1, name: "Meadow", description: "Breezy And Joyful", price: "$39.95", image: {image2} }
+
+  return (
+    <div>
+      <div className='flex flex-row justify-center item-center gap-100 text-black'>
+        <img src={image2} alt="" className='w-[300px] h-[300px] mt-30'/>
+        <div className='flex flex-col mt-50 gap-5 justify-center items-center text-2xl font-light italic'>
+          <h1>{product.name}</h1>
+          <div className='flex flex-row gap-10 '>
+          <h2>{product.description}</h2>
+          <h2>{product.price}</h2>
+          </div>
+          <h2 className=''>Captures the essence of a carefree <br />
+          breeze through wildflower fields,<br />
+           evoking pure joy with its light and <br />
+           refreshing notes.</h2>
+          Qty <div>{count}</div>
+        </div>
+      </div>
+    </div>
+  )
+}
+
+export default Cart
