@@ -34,7 +34,8 @@ const Cart = () => {
     const fetchRelated = async () => {
       try {
         const res = await axios.post(
-          "https://e-commerce-perfume-alpha.vercel.app//api/product/related",
+          "https://e-commerce-perfume-backend.onrender.com
+//api/product/related",
           {
             category: product.category,
             id: product.id
