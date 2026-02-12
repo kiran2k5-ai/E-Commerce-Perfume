@@ -1,0 +1,18 @@
+const express = require("express")
+require("dotenv").config()
+const cors = require("cors")
+const app = express()
+const connectdb = require("./config/db.js")
+const productroutes = require("./routes/productRoutes.js")
+const contactroutes = require("./routes/contactRouter.js")
+const paymentController = re
+app.use(cors())
+app.use(express.json())
+app.use("/api/product",productroutes)
+app.use("/api/contact",contactroutes)
+app.use("api/payment")
+app.listen(5000,()=>{
+    console.log("Server Running at port 5000")
+})
+
+connectdb()

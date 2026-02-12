@@ -1,0 +1,1 @@
+const Razorpay = required("razorpay")

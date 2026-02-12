@@ -14,8 +14,10 @@
     "axios": "^1.13.5",
     "lucide-react": "^0.563.0",
     "nodemailer": "^8.0.1",
+    "razorpay": "^2.9.6",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
+    "react-multi-carousel": "^2.8.6",
     "react-router-dom": "^7.13.0",
     "swiper": "^12.1.0"
   },
