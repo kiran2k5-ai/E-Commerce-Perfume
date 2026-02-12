@@ -7,14 +7,14 @@ const Navbar = () => {
       <div className="flex items-center justify-between">
 
         <div className="flex gap-6">
-          <Link to="/" className="hover:underline">
-            Home
-          </Link>
+  <Link to="/" className="hover:underline">
+    Home
+  </Link>
 
-          <Link to="/about" className="hover:underline">
-            About
-          </Link>
-        </div>
+  <Link to="/about" className="hover:underline">
+    About
+  </Link>
+</div>
 
 
         <div className="text-2xl font-serif uppercase tracking-widest">
