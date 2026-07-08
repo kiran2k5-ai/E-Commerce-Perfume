@@ -1,5 +1,0 @@
-require("dotenv").config()
-const cors = require()
-console.log("Server started")
-const connectdb = require("./config/db.js")
-connectdb()
